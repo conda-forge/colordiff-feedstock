@@ -1,5 +1,5 @@
 {% set name = "colordiff" %}
-{% set version = "1.0.21" %}
+{% set version = "1.0.22" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://www.colordiff.org/archive/{{ name }}-{{ version }}.tar.gz
-  sha256: 9b30f4257ef0f0806dea5a27c9ad8edc3f7999f05ddaff6f0627064dc927e615
+  sha256: 93a9f8b83a19cd61d1f7f306f8ddebea8f5ea11f3a4d236ec843ba50cea58dea
 
 build:
   number: 0
